@@ -6,7 +6,6 @@ from google.api_core.exceptions import ResourceExhausted
 
 app = Flask(__name__)
 CORS(app)
-
 os.environ["GOOGLE_API_KEY"] = "xxxxxxxxxxxxxxxxxxx"
 genai.configure(api_key=os.environ["GOOGLE_API_KEY"])
 
@@ -15,7 +14,6 @@ model = genai.GenerativeModel(MODEL_NAME)
 
 SYSTEM_PROMPT = """
 You are a Football Match Recommendation AI.
-
 Your role:
 - Suggest football matches based on user descriptions
 - Understand preferences like teams, leagues, countries, or playing style
