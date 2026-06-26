@@ -2,9 +2,7 @@ body, html {
   margin: 0;
   padding: 0;
   height: 100%;
-  font-family: Arial, sans-serif;
-}
-
+  font-family: Arial, sans-serif;}
 .bg-blur {
   position:fixed;
   top: 0;
@@ -12,9 +10,7 @@ body, html {
   width: 100%;
   height: 100%;
   background-color: #0d0d0d; 
-  z-index: -1;
-}
-
+  z-index: -1;}
 .bg-blur::after {
   content: "";
   position: absolute;
