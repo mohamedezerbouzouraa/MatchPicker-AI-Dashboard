@@ -6,7 +6,6 @@ body, html {
   background-color: #0d0d0d; 
   color: white;
   overflow-x: hidden;
-  
 }
 .bg-blur {
   position: fixed;
